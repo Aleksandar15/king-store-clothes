@@ -18,11 +18,11 @@ app.use(compression())
 
 // app.use(cors())
 
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 if(process.env.NODE_ENV === 'production'){
   app.use(express.static(path.join(__dirname, 'client/build')))
   
-  app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 
   app.get('*', function(req, res) {
