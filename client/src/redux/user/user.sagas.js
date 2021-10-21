@@ -77,10 +77,15 @@ export function* onCheckUserSession() {
 }
 
 
+// function refreshPage() {
+//   window.location.reload(false);
+// }
 export function* signOut(){
-  try {
-    yield auth.signOut()
-    yield put(signOutSuccess())
+    try {
+      yield auth.signOut()
+      yield put(signOutSuccess())
+      window.location.reload(false)
+    // yield put (refreshPage())
   } catch(error){
     yield put(signOutFailure(error))
   }
