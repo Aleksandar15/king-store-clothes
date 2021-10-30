@@ -21,4 +21,5 @@ export const ItemCountContainer = styled.span`
   font-weight: bold;
   font-size: 10px;
   bottom: 37px;
+  cursor: default;
 `;
