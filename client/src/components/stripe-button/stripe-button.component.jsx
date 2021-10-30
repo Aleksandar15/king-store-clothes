@@ -33,7 +33,7 @@ const StripeCheckoutButton = ({ price }) => {
       name = 'KING Store Ltd.'
       billingAddress
       shippingAddress
-      image='https://svgshare.com/i/CUz.svg'
+      image='https://svgshare.com/i/bcG.svg'
       description={`Your total is $${price}`}
       amount={priceForStripe}
       panelLabel='Pay Now'

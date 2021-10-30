@@ -23,7 +23,7 @@ const HomePage = lazy(() => import('./pages/homepage/homepage.component'))
 const ShopPage = lazy(() => import('./pages/shop/shop.component'))
 const CheckoutPage = lazy(() => import('./pages/checkout/checkout.component'))
 const SignInAndSignUpPage = lazy(() => import('./pages/signin-signup/signin-signup.component'))
-
+const ContactPage = lazy(() =>import('./pages/contact/contact'));
 
 const App = ({ checkUserSession, currentUser }) =>{
 
@@ -40,6 +40,7 @@ const App = ({ checkUserSession, currentUser }) =>{
             <Suspense fallback={<Spinner/>}>
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
+          <Route path='/contact' component={ContactPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
           <Route exact path='/signin' render={() => currentUser ? (<Redirect to='/' />) : (<SignInAndSignUpPage />)} />
             </Suspense>

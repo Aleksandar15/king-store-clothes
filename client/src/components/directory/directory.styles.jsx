@@ -5,4 +5,5 @@ export const DirectoryMenuContainer = styled.div`
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
+  padding-top: 60px;
 `;

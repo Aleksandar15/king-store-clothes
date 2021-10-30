@@ -12,6 +12,11 @@ const cartReducer = (state = INITIAL_STATE, action) => {
     case CartActionTypes.TOGGLE_CART_HIDDEN:
       return {
         ...state,
+        hidden: state
+      }
+    case CartActionTypes.TOGGLE_CART_ON:
+      return {
+        ...state,
         hidden: !state.hidden
       }
       case CartActionTypes.ADD_ITEM:
