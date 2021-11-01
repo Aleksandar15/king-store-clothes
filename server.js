@@ -1,6 +1,4 @@
 const express = require('express')
-// const bodyParser = require('body-parser')
-// const cors = require('cors')
 const path = require('path')
 const compression = require('compression');
 const enforce = require('express-sslify')
@@ -15,8 +13,6 @@ const port = process.env.PORT || 5000
 app.use(express.json() )
 app.use(express.urlencoded({ extended: true}))
 app.use(compression())
-
-// app.use(cors())
 
 
 if(process.env.NODE_ENV === 'production'){
