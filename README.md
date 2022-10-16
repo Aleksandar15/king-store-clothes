@@ -1,20 +1,20 @@
 # KING Store's Clothes
 
-#### My live app: https://king-store-clothes.herokuapp.com
+#### My live app https://king-store-clothes.herokuapp.com
 
 #### Run my project
 
 - Clone this project.
 - Navigate (cd) into your project directory.
-- Run npm install in your command line.
-- Run npm start in your command line.
+- Run `npm install` in your command line.
+- Run `npm start` in your command line.
 - Visit http://localhost:5000 in your browser!
 
 #### To run the frontend:
 
 - Navigate into your frontend directory (`cd client`).
-- Run npm install in your command line.
-- Run npm start in your command line.
+- Run `npm install` in your command line.
+- Run `npm start` in your command line.
 - Visit http://localhost:3000 in your browser!
 
 #### _Optionally_
