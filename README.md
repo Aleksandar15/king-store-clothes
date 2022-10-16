@@ -12,10 +12,14 @@
 
 #### To run the frontend:
 
-- Navigate (cd) into your frontend directory.
+- Navigate into your frontend directory (`cd client`).
 - Run npm install in your command line.
 - Run npm start in your command line.
 - Visit http://localhost:3000 in your browser!
+
+#### _Optionally_
+
+- You can run `npm run dev` to start both the frontend & backend.
 
 #### Technologies used in my project
 
