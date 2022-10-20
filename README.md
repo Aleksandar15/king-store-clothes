@@ -5,7 +5,7 @@
 ##### Test login user:
 
 - E-mail: test@test.com
-- Password: test
+- Password: testtest
 
 #### Run my project
 
