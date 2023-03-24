@@ -18,6 +18,11 @@
 
 - In my honest opinion using redux-saga is almost never a good choice, there's a lot of uneasy code to write & "getting used to" on your eyes - if I was to refactor my whole project I would go with RTKQ (Redux ToolKit Query) or even vanilla Redux Toolkit would be a better choice over redux-saga.
 
+#### Technologies used in my project
+
+###### ReactJS, Redux, NodeJS, Express, Firebase Cloud Firestore database.
+
+
 
 #### Run my project
 
@@ -38,7 +43,4 @@
 
 - You can run `npm run dev` to start both the frontend & backend.
 
-#### Technologies used in my project
-
-###### ReactJS, Redux, NodeJS, Express, Firebase
 
