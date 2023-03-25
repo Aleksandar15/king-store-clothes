@@ -22,7 +22,7 @@
 
 ###### ReactJS, Redux, NodeJS, Express, Firebase Cloud Firestore database.
 
-##### Here is my <a href="https://github.com/Aleksandar15/king-store-clothes-frontend">frontend</a>'s repo published on Netlify
+#### -> Here is my <a href="https://github.com/Aleksandar15/king-store-clothes-frontend">frontend</a>'s repo published on Netlify
 
 
 
@@ -38,6 +38,7 @@
 
 - Navigate into your frontend directory (`cd client`).
 - Run `npm install` in your command line.
+- Before you do `npm start` make sure that your node version is `12.14.1` which is my tested & working version as the newer versions may fail.
 - Run `npm start` in your command line.
 - Visit http://localhost:3000 in your browser!
 
