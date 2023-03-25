@@ -22,6 +22,8 @@
 
 ###### ReactJS, Redux, NodeJS, Express, Firebase Cloud Firestore database.
 
+##### Here is my <a href="https://github.com/Aleksandar15/king-store-clothes-frontend">frontend</a>'s repo published on Netlify
+
 
 
 #### Run my project
